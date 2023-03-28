@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/125bac9075.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-5 font-bold text-cyan-600 ">Money Master <i class="fa-solid fa-sack-dollar text-yellow-600"></i></h1>
+    </header>
+    <section class="w-3/4 mx-auto mt-10">
+        <div class="grid md:grid-cols-2 gap-8 ">
+            <div>
+                <img src="./image/money.png" alt="">
+            </div>
+            <div class="bg-slate-200 text-center">
+                <h3 class="text-center font-semibold text-2xl mt-8 ">Income</h3>
+                <span >Income:</span>
+                <input id="total-income" class="mt-6" type="text">
+                <h3 class="text-center font-semibold text-2xl mt-6 ">Income</h3>
+                <span >Food:</span>
+                <input id="food-amount" class="mt-4" type="text"> <br>
+                <span >Rent:</span>
+                <input id="rent-amount" class="mt-4" type="text"> <br>
+                <span >Clothes:</span>
+                <input id="clothes-amount" class="mt-4" type="text"> <br>
+                <button id="calculate-btn" class="btn btn-success mt-4 px-12">Calculate</button>
+
+                <h3 class="text-2xl font-semibold mt-4 ">Total Expenses:<span id="expenses-total"></span></h3>
+                <h3 class="text-2xl font-semibold mt-6 ">Total Balance:<span id="balance-total"></span></h3>
+                <span class="font-semibold">Save</span>
+                <input id="save-parsent" class="py-2 w-20" type="text">
+                <span>%</span>
+                <button id="save-btn" class="btn btn-success py-2 mt-4 px-8">Save</button>
+                <h3 class="text-2xl font-semibold mt-4 ">Saving Amount:<span id="saving-amount"></span></h3>
+                <h3 class="text-2xl font-semibold my-4 "> Remaining Balance:<span id="remaining-amount"></span></h3>
+                
+                
+
+                
+
+            </div>
+        </div>
+
+    </section>
+  
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

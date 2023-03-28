@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phone Hunter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center my-5">Welcome to phone Hunter!!</h1>
+    </header>
+    <main>
+        <section class="container mb-5">
+            <div class="input-group mb-3 w-25">
+                <input id="search-field" type="text" class="form-control " placeholder="search your phone"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button id="btn-search" class="btn btn-primary" type="button">Button</button>
+            </div>
+
+
+        </section>
+
+        <!-- search result----------- -->
+        <section class="container">
+            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+            <div id="warning-message" class="d-none">
+                <h1 class="text-center text-warning mt-5 ">No Phone Found. Please Try a New Search</h1>
+            </div>
+            <!-- Show all button -->
+            <div id="show-all" class="text-center d-none">
+                <div id="btn-show-all"  class="btn btn-warning">Show All</div>
+            </div>
+
+        </section>
+
+        <!-- add spinners loader- -->
+        <section id="loader" class="d-none">
+            <div style="height: 300px;" class="d-flex justify-content-center align-items-center">
+                <div class="spinner-border text-success" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="js/phone.js"></script>
+</body>
+
+</html>

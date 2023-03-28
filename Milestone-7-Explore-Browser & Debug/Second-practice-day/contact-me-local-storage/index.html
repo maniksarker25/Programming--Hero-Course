@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+
+            margin: auto;
+            background-color: black;
+            width: 450px;
+            padding: 20px;
+            color: white;
+        }
+
+        div {
+            margin-top: 10px;
+        }
+
+        .last-div {
+            align-items: center;
+        }
+
+        button {
+            padding: 7px 10px;
+            border-radius: 5px;
+            background-color: goldenrod;
+            color: white;
+        }
+
+        .btn-center {
+            margin-top: 10px;
+        }
+
+        input {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div>
+            <label for="">Name:</label>
+            <br>
+            <input id="name-field" type="text">
+            <button onclick="deleteName()">Delete Name</button>
+            <button onclick="setName()">Send Name</button>
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <br>
+            <input id="email-field" type="email">
+            <button onclick="deleteEmail()">Delete Email</button>
+            <button onclick="setEmail()">Send Email</button>
+        </div>
+        <div>
+            <label for="">Message:</label>
+            <br>
+            <textarea id="message-field" name="" id="" cols="20" rows="2"></textarea>
+            <button onclick="deleteMessage()">Delete Message</button>
+            <button onclick="setMessage()">Send Message</button>
+        </div>
+
+        <div>
+            <button onclick="setPersonInformation()">Send</button>
+            <button onclick="showInformation()">Reset</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

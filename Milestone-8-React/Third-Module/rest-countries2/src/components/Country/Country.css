@@ -1,0 +1,13 @@
+.country{
+    margin:20px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.country img{
+    width: 200px;
+}

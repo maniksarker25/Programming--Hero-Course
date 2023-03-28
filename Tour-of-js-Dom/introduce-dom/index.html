@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Introduce to Dom</title>
+    <style>
+        .important-places{
+            color: blueviolet;
+        }
+        .fruits-container li{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tour of dom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur architecto unde alias adipisci dolorum aut illo eum itaque? At nulla repudiandae eligendi totam illum aliquam modi non eos voluptatum suscipit!</p>
+    </header>
+    <main id="main-container">
+       <section>
+        <h1>Awesome dom da baba</h1>
+        <ul>
+            <li class="rap-name">Jalali set </li>
+            <li>Safayet</li>
+            <li>Bonobash</li>
+        </ul>
+       </section>
+    <section class="fruits-container">
+        <h2 id="fruits-title">Fruits i like</h2>
+        <ul>
+            <li class="fruits">Banana</li>
+            <li class="fruits">Orange</li>
+            <li class="fruits">Apple</li>
+        </ul>
+    </section>
+    
+    <section id="places-container">
+        <h1 id="places-title">Place i like to visit</h1>
+        <ul id="places-list">
+            <li class="important-places">Sundorbon</li>
+            <li class="important-places">Bandorbon</li>
+            <li class="important-places">Katabon</li>
+            <li>Salbon</li>
+        </ul>
+    </section>
+    <section id="hobby-container" class="large-text">
+        <ul>
+            <li>gradening</li>
+            <li>fishing</li>
+            <li>Playing</li>
+        </ul>
+    </section>
+
+        
+    </main>
+
+    <script src="./js/dom.js"></script>
+    <script src="./js/append.js"></script>
+    <script src="/js/styleinjs.js"></script>
+    <script>
+        console.log('adding js in the html file')
+
+        // getElementsByTagName
+        const allHeading = document.getElementsByTagName('h1');
+        for(h1 of allHeading){
+            console.log(h1.innerText);
+        }
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        for(li of liCollection){
+            console.log(li);
+        }
+        //getElementsByClassName
+        const importantPlaces = document.getElementsByClassName('important-places');
+        for(place of importantPlaces){
+            console.log(place.innerText);
+        }
+        //getElementById
+        const fruitsTitle = document.getElementById('fruits-title');
+        console.log(fruitsTitle.innerText);
+        //querySelector----first li dakaba
+        const firstLi = document.querySelector('.fruits-container');
+        console.log(firstLi);
+        //querySelectorAll -----------all li dakba
+        const someLi = document.querySelectorAll('.hobby-container li');
+        // console.log(someLi);
+        for( const li of someLi){
+            console.log(li);
+        }
+        
+       
+    </script>
+</body>
+</html>
