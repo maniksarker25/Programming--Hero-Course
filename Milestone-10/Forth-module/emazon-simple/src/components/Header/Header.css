@@ -1,0 +1,22 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.header a:hover{
+    color: orange;
+}
+.email-text{
+    color: white;
+    padding-left: 10px;
+}

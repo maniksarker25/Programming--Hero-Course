@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.active{
+  @apply bg-blue-400 px-3 py-2 rounded-md
+}
+.badge{
+  @apply uppercase inline-block text-xs px-3 rounded-full tracking-wider mb-4 bg-yellow-400 text-teal-900 py-px font-semibold 
+}

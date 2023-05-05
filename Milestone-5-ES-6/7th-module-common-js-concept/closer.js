@@ -5,7 +5,7 @@ function stopWatch(){
         return counter;
     }
 }
-// idjhdkjdjdiujiduiudiud
+// idjhdkjdjdiujiduiu
 
 const watch1 = stopWatch();
 console.log(watch1());

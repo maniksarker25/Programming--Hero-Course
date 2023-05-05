@@ -1,0 +1,55 @@
+.review-item {
+  width: 571px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.review-item img {
+  width: 91px;
+  height: 91px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.review-item .product-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+}
+.review-details p{
+    margin: 0 15px;
+}
+.review-details{
+    flex-grow: 1;
+}
+.price-orange{
+    color: #FF9900;
+}
+/* delete btn style */
+.delete-button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: center;
+    background-color: rgba(235, 87, 87, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.delete-icon{
+    color: #EB5757;
+    font-size: 27px;
+}

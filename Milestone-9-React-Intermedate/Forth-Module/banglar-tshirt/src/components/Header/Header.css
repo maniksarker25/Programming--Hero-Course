@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    padding: 0 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.header nav a{
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}

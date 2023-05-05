@@ -1,0 +1,24 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+  margin: 50px 50px 50px 150px;
+}
+.btn-proceed {
+  background: #ff9900;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 21px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+.proceed-link{
+text-decoration: none;
+}
