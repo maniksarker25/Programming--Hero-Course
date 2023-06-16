@@ -1,0 +1,32 @@
+[
+  {
+    "doctorName": "Dr. Jane Smith",
+    "serviceName": "General Checkup",
+    "price": 100.0,
+    "image": "https://example.com/general-checkup.jpg"
+  },
+  {
+    "doctorName": "Dr. John Doe",
+    "serviceName": "Cardiac Stress Test",
+    "price": 150.0,
+    "image": "https://example.com/cardiac-stress-test.jpg"
+  },
+  {
+    "doctorName": "Dr. Emily Brown",
+    "serviceName": "Dental Cleaning",
+    "price": 75.0,
+    "image": "https://example.com/dental-cleaning.jpg"
+  },
+  {
+    "doctorName": "Dr. James Lee",
+    "serviceName": "Eye Exam",
+    "price": 85.0,
+    "image": "https://example.com/eye-exam.jpg"
+  },
+  {
+    "doctorName": "Dr. Sarah Patel",
+    "serviceName": "Flu Shot",
+    "price": 25.0,
+    "image": "https://example.com/flu-shot.jpg"
+  }
+]
